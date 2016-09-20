@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.xorion"
-       name="XorioN - WeTek"
-       version="2.0.2"
-       provider-name="XorioN">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-
-	  </requires>
-  <extension point="xbmc.python.pluginsource" provides="video" library="xorion.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>XorioN - WeTek</summary>
-    <description>WeTek icin hazirlanmistir.</description>
-
-    <platform>all</platform>
-  </extension>
-</addon>
-
 	<extension name="Boogie's Kodi Repo" point="xbmc.addon.repository">
 		<info compressed="false">http://boogie.us.to/repository.boogie.dist/addons.xml</info>
 		<checksum>http://boogie.us.to/repository.boogie.dist/addons.xml.md5</checksum>
