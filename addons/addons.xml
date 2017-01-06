@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.xorion"
        name="[COLOR orange]Xorion - Wetek[/COLOR]"
-       version="1.0.8"
+       version="1.0.9"
        provider-name="XorioN">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
