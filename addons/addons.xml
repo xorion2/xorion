@@ -2,11 +2,11 @@
 <addons>
 <addon id="plugin.video.xorion"
        name="[COLOR orange]Xorion - Wetek[/COLOR]"
-       version="1.0.9"
+       version="1.1.0"
        provider-name="XorioN">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver" version="3.0.26"/>
+	<import addon="script.module.urlresolver" version="3.0.27"/>
 
 	  </requires>
   <extension point="xbmc.python.pluginsource" provides="video" library="xorion.py">
@@ -15,7 +15,11 @@
   <extension point="xbmc.addon.metadata">
     <summary>XorioN - WeTek</summary>
     <description>WeTek icin hazirlanmistir. Daha fazla bilgi icin [COLOR blue]http://www.mach1digital.com/mach1forum/index.php[/COLOR] ziyaret ediniz.</description>
+	<assets>
+    <icon>icon.png</icon>
+    <fanart>Fanart.jpg</fanart>
 
+  </assets>
     <platform>all</platform>
   </extension>
 </addon>
@@ -168,10 +172,15 @@ Addons Included
             <summary>WeTek Kodi Eklentileri</summary>
             <description>Kodi icin bircok eklentiyi bir arada bulabilirsiniz. Daha fazla bilgi icin [COLOR blue]http://www.mach1digital.com/mach1forum/index.php[/COLOR] ziyaret ediniz.</description>
             <platform>all</platform>
+			<assets>
+    <icon>icon.png</icon>
+    <fanart>Fanart.jpg</fanart>
+
+  </assets>
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.26" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.27" provider-name="tvaddons.ag, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
