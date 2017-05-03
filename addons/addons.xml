@@ -2,11 +2,11 @@
 <addons>
 <addon id="plugin.video.xorion"
        name="[COLOR orange]Xorion - Wetek[/COLOR]"
-       version="1.1.2"
+       version="1.1.5"
        provider-name="XorioN">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver" version="3.0.29"/>
+	<import addon="script.module.urlresolver" version="3.0.30"/>
 
 	  </requires>
   <extension point="xbmc.python.pluginsource" provides="video" library="xorion.py">
@@ -194,9 +194,10 @@ Addons Included
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.29" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.30" provider-name="tvaddons.ag, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" optional="true" />
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
