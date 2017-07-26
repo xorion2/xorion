@@ -2,11 +2,11 @@
 <addons>
 <addon id="plugin.video.xorion"
        name="[COLOR orange]Xorion - Wetek[/COLOR]"
-       version="1.1.5"
+       version="2.0.0"
        provider-name="XorioN">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver" version="3.0.30"/>
+	<import addon="script.module.urlresolver" version="3.0.32"/>
 
 	  </requires>
   <extension point="xbmc.python.pluginsource" provides="video" library="xorion.py">
@@ -14,7 +14,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>XorioN - WeTek</summary>
-    <description>WeTek icin hazirlanmistir. Daha fazla bilgi icin [COLOR blue]http://www.mach1digital.com/mach1forum/index.php[/COLOR] ziyaret ediniz.</description>
+    <description>XorVod Kodi - Daha fazla bilgi icin [COLOR yellow]http://xorvod.com[/COLOR] ve [COLOR blue]http://www.mach1digital.com/mach1forum/index.php[/COLOR] ziyaret ediniz.</description>
 	<assets>
     <icon>icon.png</icon>
     <fanart>Fanart.jpg</fanart>
@@ -194,10 +194,12 @@ Addons Included
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.30" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.32" provider-name="tvaddons.ag, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.python.twitch" optional="true" />
+		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
