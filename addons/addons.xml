@@ -2,7 +2,11 @@
 <addons>
 <addon id="plugin.video.xorion"
        name="[COLOR orange]Xorion - Wetek[/COLOR]"
+<<<<<<< HEAD
        version="3.0.1"
+=======
+       version="3.0.0"
+>>>>>>> origin/master
        provider-name="XorioN">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -39,11 +43,31 @@
             <summary>WeTek Kodi Eklentileri</summary>
             <description>Kodi icin bircok eklentiyi bir arada bulabilirsiniz. Daha fazla bilgi icin [COLOR blue]http://www.mach1digital.com/mach1forum/index.php[/COLOR] ziyaret ediniz.</description>
             <platform>all</platform>
-			<assets>
-    <icon>icon.png</icon>
-    <fanart>Fanart.jpg</fanart>
-
-  </assets>
     </extension>
 </addon>
+<<<<<<< HEAD
+=======
+
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.09" provider-name="tvaddons">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.python.twitch" optional="true" />
+		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+		<import addon="plugin.video.gdrive" optional="true" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+		<forum>https://www.tvaddons.co/forums</forum>
+        <website>https://www.tvaddons.co</website>
+	</extension>
+</addon>
+>>>>>>> origin/master
 </addons>
